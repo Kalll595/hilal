@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">Hilal<span>.dev</span></a>
+    <nav class="links">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow"><span class="dot"></span>Pelajar & Perakit Elektronika</p>
+        <h1>Belajar membangun sistem dari kabel hingga kode.</h1>
+        <p class="lede">Saya suka merakit rangkaian, menyambungkan mikrokontroler dengan motor dan sensor, lalu membuatnya bergerak sesuai perintah. Berikut sebagian proyek dan proses belajar saya.</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+          <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <img src="images/foto1.jpg" alt="Foto profil">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-head" style="border:none; padding:0; margin-bottom:20px;">
+          <h2>Tentang Saya</h2>
+        </div>
+        <p>Saya masih dalam tahap belajar di bidang elektronika dan robotika dasar, mulai dari merangkai komponen di atas breadboard sampai memprogram mikrokontroler agar bisa mengendalikan motor dan modul nirkabel.</p>
+        <p style="font-style:italic; color:#A0A8B4;">(Comingsoon)</p>
+      </div>
+      <dl class="fact-list">
+        <li><dt>Fokus</dt><dd>Elektronika & Robotika</dd></li>
+        <li><dt>Platform</dt><dd>Arduino Uno</dd></li>
+        <li><dt>Status</dt><dd>Sedang dilengkapi</dd></li>
+      </dl>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Proyek</h2>
+        <span class="count">01 proyek</span>
+      </div>
+      <div class="project-card">
+        <div class="shot">
+          <img src="images/foto2.jpg" alt="Robot mobil berbasis Arduino">
+        </div>
+        <div class="project-body">
+          <span class="tag">Robotika · Arduino</span>
+          <h3>Robot Mobil Kendali Bluetooth</h3>
+          <p>Mobil robot 4 roda yang dikendalikan nirkabel, dibangun di atas chassis aluminium dengan Arduino Uno sebagai otak sistemnya.</p>
+          <ul class="spec-list">
+            <li>Mikrokontroler Arduino Uno sebagai pusat kendali</li>
+            <li>Driver motor untuk menggerakkan 4 roda secara independen</li>
+            <li>Modul Bluetooth HC-05 untuk kendali nirkabel dari ponsel</li>
+            <li>Sumber daya baterai 18650 yang dirakit sendiri</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Keahlian</h2>
+      </div>
+      <div class="chip-row">
+        <span class="chip">Arduino & C/C++</span>
+        <span class="chip">Elektronika Dasar</span>
+        <span class="chip">Wiring & Soldering</span>
+      </div>
+      <p style="font-style:italic; color:#A0A8B4; margin-top:16px; font-size:0.92rem;">Daftar keahlian lain masih dalam proses penambahan.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box">
+        <div>
+          <h2>Mari terhubung</h2>
+          <p>Terbuka untuk diskusi proyek, kolaborasi belajar, atau sekadar bertukar ide seputar elektronika dan robotika.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:nama@email.com">Email <span>↗</span></a>
+        </div>
+      </div>
+      <p style="font-style:italic; color:#A0A8B4; margin-top:16px; font-size:0.92rem;">Coming soon</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="width:100%; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+    <span></span>
+    <span>Draft Portofolio Phase 1</span>
+  </div>
+</footer>
+
+</body>
+</html>
